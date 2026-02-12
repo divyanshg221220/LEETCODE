@@ -1,3 +1,10 @@
+/*
+ * @lc app=leetcode id=485 lang=c
+ *
+ * [485] Max Consecutive Ones
+ */
+
+// @lc code=start
 int findMaxConsecutiveOnes(int* nums, int numsSize) {
     int max = 0, temp = 0;
     for (int i = 0; i < numsSize; i++)
@@ -21,3 +28,5 @@ int findMaxConsecutiveOnes(int* nums, int numsSize) {
     }
     return max; 
 }
+// @lc code=end
+
